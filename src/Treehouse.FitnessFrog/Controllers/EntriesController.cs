@@ -49,14 +49,6 @@ namespace Treehouse.FitnessFrog.Controllers
             int? activityId, double? duration, 
             Entry.IntensityLevel? intensity, bool? exclude, string notes)
         {
-            //This will put the attempted value into the form
-            ViewBag.Date = ModelState["Date"].Value.AttemptedValue;
-            ViewBag.ActivityId = ModelState["ActivityId"].Value.AttemptedValue;
-            ViewBag.Duration = ModelState["Duration"].Value.AttemptedValue;
-            ViewBag.Intensity = ModelState["Intensity"].Value.AttemptedValue;
-            ViewBag.Exclude = ModelState["Exclude"].Value.AttemptedValue;
-            ViewBag.Notes = ModelState["Notes"].Value.AttemptedValue;
-
             return View();
         }
 
