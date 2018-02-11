@@ -19,6 +19,6 @@
 
     $.validator.unobtrusive.options = {
         errorClass: defaultOptions.errorClass,
-        validClass: defaultOptions.validClass,
+        validClass: defaultOptions.validClass
     };
 })(jQuery);
